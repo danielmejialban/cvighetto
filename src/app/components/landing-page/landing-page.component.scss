@@ -2,13 +2,86 @@
 {
     padding: unset !important;
 }
+.navbar
+{
+    position: fixed !important;
+    border-radius: 0px !important;
+}
+/* SECTIONS */
+section
+{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*ESTILOS SECTION WELCOME*/
 .sectionWelcome
 {
     height: 100vh;
     background-image: url("../../../assets/img/background.png");
     background-size: cover;
 }
+.sectionWelcome .overlay
+{
+  background-color: rgba(0, 0, 0, 0.69);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.sectionWelcome .container
+{
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.parallax
+{
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+/*ESTILOS SECTION My Pictures*/
 .sectionMyPictures
 {
     text-align: center;
 }
+.sectionMyPictures .card
+{
+    position: relative;
+    img
+    {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .info
+    {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    &:hover img
+    {
+        opacity: 0.3;
+    }
+    &:hover .info
+    {
+        opacity: 1;
+    }
+}
+  
+
