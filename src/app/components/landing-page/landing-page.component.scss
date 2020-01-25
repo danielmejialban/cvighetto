@@ -38,7 +38,7 @@ section
   background-size: cover !important;
 }
 /*ESTILOS SECTION My Pictures*/
-.sectionMyPictures
+.sectionMyPictures, .sectionContact
 {
     text-align: center;
 }
@@ -50,7 +50,7 @@ section
         opacity: 1;
         display: block;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         transition: .5s ease;
         backface-visibility: hidden;
         background-size: cover;
@@ -73,5 +73,19 @@ section
     &:hover .info
     {
         opacity: 1;
+    }
+}
+
+/*ESTILOS SECTION 'Contact'*/
+.sectionContact
+{
+    color: white;
+    background-color: #343a40;
+}
+
+/* RESPONSIVE STYLE */
+@media (min-width: 1200px){
+    .card img{
+        height: 50rem !important;
     }
 }

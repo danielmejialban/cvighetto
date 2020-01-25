@@ -11,21 +11,20 @@
 
 <!-- SECTION PICTURES -->
 <section class="sectionMyPictures" id="sectionMyPictures">
-  <h1>My pictures</h1>
+  <h1 class="mb-5">My pictures</h1>
   <div class="container">
 
     <!-- row 1 -->
-    <div class="row">
-      <div class="col">
-        <div class="card">
-          <img src="../assets/img/IMG-6546.JPG" class="card-img-top" alt="...">
+    <div class="row justify-content-center">
+      <div class="col-10 col-md-6 col-sm-6 col-lg-4" *ngFor="let picture of arrayPictures">
+        <div class="card mb-5">
+          <img [src]="picture.imagen" class="card-img-top" alt="...">
           <div class="info">
-            <h1>1/9 Kylie Jenner</h1>
+            <h1>{{picture.info}}</h1>
           </div>
         </div>
       </div>
-
-      <div class="col">
+      <!-- <div class="col">
         <div class="card">
           <img src="../assets/img/IMG-6511.JPG" class="card-img-top" alt="...">
           <div class="info">
@@ -42,8 +41,7 @@
           </div>
         </div>
       </div>
-     <!-- <div class="w-100"></div> -->
-      <!-- row 2 -->
+      
       <div class="row align-items-center">
         <div class="col">
           <div class="card">
@@ -73,7 +71,6 @@
         </div>
       </div>
 
-      <!-- row  3-->
       <div class="row align-items-center">
         <div class="col">
           <div class="card">
@@ -99,8 +96,12 @@
             </div>
           </div>
         </div>
-      </div>
-
+      </div> -->
     </div>
   </div>
+</section>
+
+<!-- SECTION CONTACT -->
+<section class="sectionContact" id="sectionContact">
+  <h1>CONTACT</h1>
 </section>
