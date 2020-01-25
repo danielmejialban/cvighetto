@@ -1,0 +1,17 @@
+.navbar
+{
+    position: fixed !important;
+    border-radius: 0px !important;
+    a
+    {
+        font-size: 1.8rem;
+    }
+    #my-nav
+    {
+        display: flex !important;
+    }
+    .navbar-brand
+    {
+        font-size: 2.5rem;
+    }
+}
