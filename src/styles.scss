@@ -1,2 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+html{
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 1200px){
+  .card img{
+      height: auto !important;
+  }
+}
+
+/* RESPONSIVE STYLE */
+@media (min-width: 1200px){
+  .card img{
+      height: auto !important;
+  }
+}
