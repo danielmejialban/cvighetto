@@ -10,6 +10,14 @@ html{
   }
 }
 
+@media screen and (max-width: 512px)
+{
+  .parallax
+  {
+    background-position: center right;
+  }
+}
+
 /* RESPONSIVE STYLE */
 @media (min-width: 1200px){
   .card img{

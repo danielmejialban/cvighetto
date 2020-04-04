@@ -15,7 +15,6 @@ section
 }
 .sectionWelcome .overlay
 {
-  background-color: rgba(0, 0, 0, 0.69);
   position: absolute;
   top: 0;
   right: 0;
@@ -79,6 +78,9 @@ section
 /*ESTILOS SECTION 'Contact'*/
 .sectionContact
 {
+  color: white;
+  background-color: #343a40;
+  h6, img{
     color: white;
-    background-color: #343a40;
+  }
 }
