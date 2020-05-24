@@ -20,7 +20,7 @@
     <div class="row justify-content-center">
       <div class="col-10 col-md-6 col-sm-6 col-lg-4" *ngFor="let picture of arrayPictures">
         <div class="card mb-5">
-          <img [src]="picture.imagen" class="card-img-top" alt="...">
+          <img [src]="picture.imagen" loading="lazy" class="card-img-top" alt="...">
           <div class="info">
             <h1>{{picture.info}}</h1>
           </div>
