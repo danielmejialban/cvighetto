@@ -10,12 +10,12 @@ section
 .sectionWelcome
 {
     height: 100vh;
-    background-image: url("../../../assets/img/background.png");
+    background-image: url("../../../assets/img/expo.jpeg");
     background-size: cover;
 }
 .sectionWelcome .overlay
 {
-  background-color: rgba(0, 0, 0, 0.69);
+  /*background-color: rgba(0, 0, 0, 0.69);*/
   position: absolute;
   top: 0;
   right: 0;
@@ -28,6 +28,7 @@ section
     position: relative;
     color: white;
 }
+
 .parallax
 {
   /* Set a specific height */
